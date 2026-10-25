@@ -1,0 +1,16 @@
+:root { --ink: #1B2A4E; --muted: #4a5878; --primary: #0059BB; --bg: #FAF8FF; --card: #fff; --line: #D8E2FF; }
+@media (prefers-color-scheme: dark) { :root { --ink: #EEF1FA; --muted: #B4BDD3; --primary: #8AB4FF; --bg: #121a30; --card: #1B2A4E; --line: #2c3d66; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+header img { width: 56px; height: 56px; border-radius: 14px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0; }
+h2 { font-size: 21px; margin: 36px 0 8px; color: var(--primary); }
+a { color: var(--primary); }
+.meta { color: var(--muted); font-size: 15px; }
+.lang { float: right; font-size: 15px; }
+.box { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 4px 20px; margin: 20px 0; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+li { margin: 4px 0; }
