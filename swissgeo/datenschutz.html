@@ -73,9 +73,11 @@ zufällige technische Kennung, ohne Namen und ohne E-Mail-Adresse. Auf unserem S
 <li>deine <b>Meldungen</b> von Pseudonymen und <b>Blockierungen</b> von Spielern (für die Moderation);</li>
 <li>die <b>Tage, an denen die App geöffnet wurde</b> (ein Datum pro Tag, ohne Spielinhalte), um aktive Spieler in
 Gesamtstatistiken zu zählen.</li>
+<li>wenn du <b>Duell-Mitteilungen</b> einschaltest: eine Mitteilungskennung deines Telefons (von Google Firebase Cloud Messaging und auf dem iPhone von Apple), verknüpft mit deinem anonymen Konto, um dich zu benachrichtigen, wenn dich jemand herausfordert oder dein Gegner gespielt hat. Sie wird gelöscht, wenn du diese Mitteilungen ausschaltest oder dein Konto löschst.</li>
 </ul>
 <p>Der Server wird von Supabase betrieben und in der Europäischen Union (Irland) gehostet, einem Land mit von der Schweiz
 anerkanntem angemessenem Datenschutz. Die Verbindungen sind verschlüsselt. Die Daten dienen nur dem Spiel.</p>
+<p>Duell-Mitteilungen laufen über Google Firebase Cloud Messaging (Google Ireland Limited); übermittelt werden nur die Mitteilungskennung, das Pseudonym deines Gegners und das Ergebnis des Duells.</p>
 <p><b>Online-Konto löschen:</b> in der App unter <i>Profil → Einstellungen → Mein Online-Konto löschen</i>. Alles wird sofort
 gelöscht: Pseudonym, Punkte, Duelle, Klasse und Fortschrittskopie. Du kannst es auch per E-Mail an
 <a href="mailto:support@plugin.ch">support@plugin.ch</a> mit Angabe deines Pseudonyms verlangen.</p>
@@ -93,6 +95,7 @@ gelöscht: Pseudonym, Punkte, Duelle, Klasse und Fortschrittskopie. Du kannst es
 <tr><th>Berechtigung</th><th>Wozu</th></tr>
 <tr><td>Internet</td><td>Online-Spiel, angefordertes Werbevideo und Prüfung der Käufe</td></tr>
 <tr><td>Vibration</td><td>kurze Vibrationen nach einer Antwort (in den Einstellungen abschaltbar)</td></tr>
+<tr><td>Mitteilungen</td><td>nur wenn du zustimmst: Erinnerung an das Tagesquiz (auf dem Telefon geplant, ohne Server) und Duell-Mitteilungen</td></tr>
 </table>
 
 <h2>9. Kinder</h2>

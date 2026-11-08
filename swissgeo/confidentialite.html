@@ -74,9 +74,11 @@ serveur :</p>
 <li>les <b>signalements</b> de pseudos et les <b>blocages</b> de joueurs que tu fais (pour la modération) ;</li>
 <li>les <b>jours où l'application a été ouverte</b> (une date par jour, sans contenu de jeu), pour compter les joueurs actifs
 dans des statistiques globales.</li>
+<li>si tu actives les <b>notifications de duel</b> : un identifiant de notification de ton téléphone (fourni par Google Firebase Cloud Messaging et, sur iPhone, par Apple), rattaché à ton compte anonyme, pour te prévenir qu'on te défie ou que ton adversaire a joué. Il est effacé quand tu coupes ces notifications ou supprimes ton compte.</li>
 </ul>
 <p>Le serveur est fourni par Supabase et hébergé dans l'Union européenne (Irlande), un pays reconnu par la Suisse comme
 offrant une protection adéquate des données. Les échanges sont chiffrés. Ces données servent uniquement au jeu.</p>
+<p>Les notifications de duel passent par Google Firebase Cloud Messaging (Google Ireland Limited) ; seuls l'identifiant de notification, le pseudo de ton adversaire et le résultat du duel sont transmis.</p>
 <p><b>Supprimer ton compte en ligne :</b> dans l'application, <i>Profil → Paramètres → Supprimer mon compte en ligne</i>.
 Tout est effacé immédiatement : pseudo, scores, duels, classe et copie de progression. Tu peux aussi le demander par
 e-mail à <a href="mailto:support@plugin.ch">support@plugin.ch</a> en indiquant ton pseudo.</p>
@@ -94,6 +96,7 @@ e-mail à <a href="mailto:support@plugin.ch">support@plugin.ch</a> en indiquant 
 <tr><th>Autorisation</th><th>Pourquoi</th></tr>
 <tr><td>Internet</td><td>jeu en ligne, vidéo publicitaire demandée et vérification des achats</td></tr>
 <tr><td>Vibration</td><td>les petites vibrations après une réponse (désactivables dans les paramètres)</td></tr>
+<tr><td>Notifications</td><td>seulement si tu les acceptes : rappel du défi du jour (programmé sur le téléphone, sans serveur) et notifications de duel</td></tr>
 </table>
 
 <h2>9. Enfants</h2>
